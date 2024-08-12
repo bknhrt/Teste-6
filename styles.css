@@ -17,7 +17,7 @@ header {
 }
 
 .header-content {
-    display: flex;
+    display: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -44,14 +44,10 @@ nav a:hover {
 }
 
 main {
-    padding-top: 100px;
+    padding-top: 1px;
 }
 
-.hero {
-    position: relative;
-    text-align: center;
-    color: white;
-}
+
 
 .hero img {
     width: 100%;
